@@ -15,7 +15,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-imp
 ```json
 {
   "root": true,
-  "extends": "za"
+  "extends": "mt"
 }
 
 ```
@@ -29,7 +29,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-imp
 ```json
 {
   "root": true,
-  "extends": "za/react"
+  "extends": "mt/react"
 }
 
 ```
@@ -43,7 +43,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-imp
 ```json
 {
   "root": true,
-  "extends": "za/vue"
+  "extends": "mt/vue"
 }
 
 ```
@@ -57,7 +57,7 @@ npm install --save-dev eslint typescript  eslint-plugin-babel eslint-plugin-impo
 ```json
 {
   "root": true,
-  "extends": "za/typescript"
+  "extends": "mt/typescript"
 }
 
 ```

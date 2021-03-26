@@ -4,8 +4,6 @@ module.exports = {
     'linebreak-style': 'off',
     'func-names': ['error', 'as-needed'],
     'prefer-arrow-callback': 'warn',
-    // 允许连续赋值
-    'no-multi-assign': 'off',
     // 不禁止对函数的参数重新赋值
     'no-param-reassign': 'off',
     'no-unused-expressions': [
@@ -40,6 +38,7 @@ module.exports = {
         allow: ['~'],
       },
     ],
+    // 允许变量有下划线
     'no-underscore-dangle': 'off',
     'arrow-body-style': 'off',
     'default-case': 'off',
@@ -71,12 +70,6 @@ module.exports = {
       'error',
       {
         ignoreEOLComments: true,
-        // exceptions: {
-        //   Property: true,
-        //   BinaryExpression: false,
-        //   VariableDeclarator: true,
-        //   ImportDeclaration: true,
-        // },
       },
     ],
     'object-curly-newline': [
@@ -86,9 +79,6 @@ module.exports = {
         consistent: true,
       },
     ],
-    // 使用 babel/semi，实例属性需要加分号
-    semi: 'off',
-    'babel/semi': ['error', 'always'],
     // 强制三元运算符格式
     'multiline-ternary': ['error', 'always-multiline'],
   },

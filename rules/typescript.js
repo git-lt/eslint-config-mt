@@ -7,52 +7,7 @@ module.exports = {
      * 部分规则需要关闭 ESLint 自身规则
      * 部分规则暂时可采用 ESLint 内建规则及编译时的静态检查
      */
-    // '@typescript-eslint/no-array-constructor': 'off',
-    // '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
-
-    // indent: 'off',
-    // '@typescript-eslint/indent': [
-    //   'error',
-    //   2,
-    //   {
-    //     SwitchCase: 1,
-    //     VariableDeclarator: 1,
-    //     outerIIFEBody: 1,
-    //     FunctionDeclaration: {
-    //       parameters: 1,
-    //       body: 1,
-    //     },
-    //     FunctionExpression: {
-    //       parameters: 1,
-    //       body: 1,
-    //     },
-    //     CallExpression: {
-    //       arguments: 1,
-    //     },
-    //     ArrayExpression: 1,
-    //     ObjectExpression: 1,
-    //     ImportDeclaration: 1,
-    //     flatTernaryExpressions: false,
-    //     ignoredNodes: [
-    //       'JSXElement',
-    //       'JSXElement > *',
-    //       'JSXAttribute',
-    //       'JSXIdentifier',
-    //       'JSXNamespacedName',
-    //       'JSXMemberExpression',
-    //       'JSXSpreadAttribute',
-    //       'JSXExpressionContainer',
-    //       'JSXOpeningElement',
-    //       'JSXClosingElement',
-    //       'JSXText',
-    //       'JSXEmptyExpression',
-    //       'JSXSpreadChild',
-    //     ],
-    //     ignoreComments: false,
-    //   },
-    // ],
-
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
@@ -63,29 +18,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-
-    semi: 'off',
-    'babel/semi': 'off',
     '@typescript-eslint/semi': ['error', 'always'],
-
-    // 'func-call-spacing': 'off',
-    // '@typescript-eslint/func-call-spacing': ['error', 'never'],
-
-    // 'no-extra-parens': 'off',
-    // '@typescript-eslint/no-extra-parens': 'off',
-
-    // 'no-magic-numbers': 'off',
-    // '@typescript-eslint/no-magic-numbers': 'off',
-
-    /* ----------  @typescript-eslint v2 BREAKING CHANGES.  ---------- */
-
-    // prefer-interface -> consistent-type-definitions
-    // '@typescript-eslint/prefer-interface': 'error',
-    // no-triple-slash-reference -> triple-slash-reference
-    // '@typescript-eslint/no-triple-slash-reference': 'error',
-    // no-angle-bracket-type-assertion & no-object-literal-type-assertion -> consistent-type-assertions
-    // '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
-    // '@typescript-eslint/no-object-literal-type-assertion': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/triple-slash-reference': [
       'error',
@@ -104,7 +37,6 @@ module.exports = {
     ],
 
     /* ----------  rules  ---------- */
-
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
